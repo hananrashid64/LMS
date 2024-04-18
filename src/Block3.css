@@ -1,0 +1,126 @@
+.block3
+{
+    height: 160vh;
+    width: 100%;
+    /* background-color: blueviolet; */
+    margin-top: -6.2vh;
+}
+.headLine 
+{
+    padding-top: 10vh;
+}
+h1
+{
+    margin-left: 12vh;
+    color: #114A37;
+    width: 50vh;
+    font-weight: bold;
+}
+p
+{
+    margin-left: 12vh;
+    margin-top: -3vh;
+    color: #D69D45;
+    font-weight: bold;
+
+
+}
+.row-imgs
+{
+    display: flex;
+    /* background-color: aqua; */
+    margin-left: 3vh;
+    /* gap: -50px; */
+}
+.round-img
+{
+    /* display: flex; */
+    margin-right: -50px;
+    width: 150px;
+    height: 150px;
+    margin-left: 22vh;
+    margin-top: 15vh;
+    border: 2px solid #D69D45;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-left: 8vh; */
+
+}
+.row-imgs :hover
+{
+    background-color: #fffcf8;
+}
+ /* .round-img img
+{
+   padding-top: 6vh;
+   background-color: rgb(110, 223, 223);
+   padding-left: 8vh;
+   
+   
+}  */
+
+.namingText
+{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25vh;
+    padding-right: 26.5vh;
+    color: #194D37;
+    /* background-color: blueviolet; */
+    padding-left: 29vh;
+    height: 7vh;
+}
+.writtenText
+{
+    /* background-color: blue; */
+    display: flex;
+    /* justify-content: space-between;
+    gap: 3vh;
+    padding-left: 8vh;
+    height: 50vh;
+    padding-right: 15vh;
+    padding-top: 4vh; */
+}
+.textBox
+{
+    height: 15vh;
+    width: 30vh;
+    /* background-color: #114A37; */
+    /* padding-top: 7vh;
+    padding-left: -5vh;
+    margin-left: 15vh; */
+    margin-left: 20vh;
+    margin-right: -14vh;
+}
+/* .textBox p
+{
+    margin-top: 5vh;
+    padding-right: 13vh;
+    background-color: chartreuse;
+} */
+/* .round-img p
+{
+    width: 32vh;
+    padding-left: 4.5vh;
+    
+    background-color: rgb(255, 0, 225);
+    margin-top: 3vh;
+    margin-left: -8vh;
+    font-weight: normal;
+} */
+.L1
+{
+    margin-left: 2vh;
+    color: #194D37;
+}
+.L2
+{
+    margin-left: 1vh;
+    color: #194D37;
+}
+.L3{
+    margin-left: 8vh;
+    color: #194D37;
+} 

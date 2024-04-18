@@ -1,0 +1,165 @@
+.bg-img
+{
+    display: flex;
+  height: 110vh;
+  background-color: #F3F2ED;
+  background-repeat: no-repeat;
+
+  background-image: 
+  url('BCimages/Section - Copy.png');
+  /* url('BCimages/Section - Copy.png');  */
+  background-size:
+  /* 550px 500px, */
+  550px 500px;
+ /* width: 50vh; */
+  background-position:  
+    calc(100% - 0vh) center;
+    /* calc(100% - 21vh) center; */
+
+    /* .rotated-image {
+        transform: rotate(180deg); 
+    } */
+
+}
+.bg-img .man-praying
+{
+    margin-left: 45vh;
+    width: 412px;
+    height: 417px;
+    margin-top: -20vh;
+    border-top-left-radius: 50%; 
+    border-top-right-radius: 50%;
+}
+.bg-img .bismillah 
+{
+    width: 271px;
+    height: 57px;
+    margin-left: 20vh;
+    margin-top: 10vh;
+}
+.bismil-text p
+{
+    color: #114A37 ;
+    font-weight: normal;
+    margin-left: 20vh;
+    margin-top: 3vh;
+}
+.text2 p
+{
+    display: flex;
+    float: left;
+    color: #114A37 ;
+
+    margin-top: -60vh;
+    font-size: 50px;
+    font-weight: bold;
+}
+.text2 .capital-text
+{
+    font-size: 15px;
+    margin-top: -32vh;
+    color: #D69D45;
+    font-weight: normal;
+}
+.btn
+{
+    /* background-color: #114A37;
+    margin-top: -45vh;
+    margin-left: 20vh;
+    width: 175px;
+    color: white; */
+    position: relative;
+    margin-top: -45vh;
+    margin-left: 20vh;
+    background-color: #194D37;
+    border: 2px solid #075e54;
+    border-radius: 0.25rem;
+    padding: 0.5rem 2.5rem;
+    font-size: 0.875rem;
+    cursor: pointer;
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
+    overflow: hidden;
+}
+.btn:hover {
+    /* background-color: #c1d9f4;  */
+    position: relative;
+    background-color: transparent;
+    border: 2px solid #075e54;
+    border-radius: 0.25rem;
+    padding: 0.5rem 2.5rem;
+    font-size: 0.875rem;
+    cursor: pointer;
+    color: #4caf50;
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
+    overflow: hidden;
+  }
+  .btn::before {
+    content: "";
+    background-color: #f0ae45;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: width 800ms ease-in-out;
+    display: inline-block;
+  }
+  
+  .btn:hover::before {
+    width: 100%;
+    color: #fff;
+  } 
+.text2 img
+{
+    margin-top: -75vh;
+    margin-left: 90vh;
+    width: 406px;
+    height: 382px;
+}
+
+
+/*
+.signup {
+    border: 1.5px solid #114a37;
+    width: 5vw;
+    height: 4vh;
+    font-weight: 600;
+  }
+  
+  .hoverBtn {
+    position: relative;
+    background-color: transparent;
+    border: 2px solid #075e54;
+    border-radius: 0.25rem;
+    padding: 0.5rem 2.5rem;
+    font-size: 0.875rem;
+    cursor: pointer;
+    color: #4caf50;
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
+    overflow: hidden;
+  }
+  
+  .hoverBtn::before {
+    content: "";
+    background-color: #f0ae45;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: width 800ms ease-in-out;
+    display: inline-block;
+  }
+  
+  .hoverBtn:hover::before {
+    width: 100%;
+    color: #fff;
+  } */
+
+

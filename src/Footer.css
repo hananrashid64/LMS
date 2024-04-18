@@ -1,0 +1,202 @@
+.top-footer {
+    width: 1160px;
+    height: 371px;
+    top: 5305px;
+    padding: 36px 255px 36px 255px;
+    background-image: url('BCimages/footer.jpg');
+    background-position: calc(110% - 0vh) center;
+   
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+}
+
+.top-footer p:nth-child(2) {
+    width: 760px;
+    height: 60px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: -0.011em;
+    text-align: center;
+}
+
+.top-footer p:nth-child(3) {
+    font-family: Amiri;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+    position: relative;
+    top: -60px;
+}
+
+.top-footer p:nth-child(4) {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: -0.011em;
+    text-align: center;
+    position: relative;
+    top: -90px;
+}
+
+.bottom-footer {
+    width: 100%;
+    height: 692px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-evenly;
+    /* top: 5305px; */
+    padding: 36px 255px 700px 443px;
+    background-image: url('BCimages/masjid.png');
+    background-repeat: no-repeat;
+    background-position: calc(100% - 21vh) right bottom;
+    /* position:relative
+    {
+        left:"500px";
+    } */
+    background-size: 100% 762px;
+}
+.advance-courses,
+.links,
+.admissions,
+.regular-courses {
+    width: 280px;
+    height: 320px;
+    padding: 4px;
+    text-align: left;
+}
+.links{
+    width: 100px;
+}
+
+li {
+    list-style-type: none;
+    padding: 4px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.links ul li,
+.advance-courses ul li,
+.admissions ul li,
+.regular-courses ul li {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+}
+.bottom-footer{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.regular-courses h1{
+    padding-left: 27px;
+}
+.advance-courses h1{
+    padding-left: 27px;
+}
+.links h1{
+    padding-left: 30px;
+}
+.admissions h1{
+    padding-left: 35px;
+}
+
+/* Styles for screens smaller than 768px (tablets) */
+@media (max-width: 768px) {
+    .top-footer {
+        padding: 36px 10%; /* Adjust padding for tablets */
+    }
+
+    .top-footer p:nth-child(2) {
+        max-width: 100%; /* Adjust max-width for tablets */
+    }
+
+    .top-footer p:nth-child(3),
+    .top-footer p:nth-child(4) {
+        font-size: 18px; /* Adjust font size for tablets */
+    }
+
+    .bottom-footer {
+        padding: 36px 10% 100px; /* Adjust padding for tablets */
+    }
+
+    .advance-courses,
+    .links,
+    .admissions,
+    .regular-courses {
+        width: 45%; /* Adjust width for tablets */
+        margin-bottom: 20px; /* Add space between items */
+    }
+
+    .links {
+        width: auto; /* Reset width for links */
+    }
+
+    h1 {
+        padding-left: 0; /* Remove left padding for h1 elements */
+    }
+}
+
+
+
+
+ /* li
+{
+   
+    position: relative;
+    margin-top: 5.5vh;
+    margin-left: 12vh;
+    background-color: #194D37;
+    border: 2px solid #075e54;
+    border-radius: 0.25rem;
+    padding: 0.5rem 2.5rem;
+    font-size: 0.875rem;
+    cursor: pointer;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
+    overflow: hidden;
+}
+li:hover {
+    position: relative;
+    background-color: transparent;
+    border: 2px solid #075e54;
+    border-radius: 0.25rem;
+    padding: 0.5rem 2.5rem;
+    font-size: 0.875rem;
+    cursor: pointer;
+    color: #4caf50;
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
+    overflow: hidden;
+  }
+   li::before {
+    content: "";
+    background-color: #f0ae45;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: width 800ms ease-in-out;
+    display: inline-block;
+  }
+  
+   li:hover::before {
+    width: 100%;
+    color: #fff;
+  }   */

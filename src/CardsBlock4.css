@@ -1,0 +1,89 @@
+.block4Cards
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 17vh;
+    width: 100%;
+    height: 86vh;
+    /* margin-right: 24vh; */
+    margin-left: 5vh;
+    padding-right: 20vh;
+    /* background-color: brown; */
+    /* justify-content: space-between; */
+
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Add space between rows */
+    margin-left: 5vh;
+  }
+
+.card1, .card2 ,.card3, .card4, .card5, .card6
+{
+    width: 70vh;
+    height: 230px;
+    /* background-color: rgb(231, 146, 18); */
+    /* border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    margin-left: 20vh;
+    margin-top: 10vh; */
+    margin-left: 5vh;
+    background-color: white;
+    flex: 1;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.block4Cards h5
+{
+    padding-top: 8vh;
+   
+    display: flex;
+    justify-content: left;
+    padding-left: 3vh;
+}
+.block4Cards p
+{
+    color: black;
+    width: 45vh;
+    /* background-color: blue; */
+    margin-left: 2.5vh;
+    font-weight: normal;
+    padding-top: 4vh;
+    text-align: left; 
+}
+.card1, .card2 ,.card3, .card4, .card5, .card6
+{
+    /* width: 80px;
+    height: 80px; */
+    position: relative;
+
+    /* background-color: aqua; */
+  
+}
+.image-container {
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: -20px; /* Adjust as needed */
+    z-index: 1; /* Ensure the image appears above the card content */
+    /* background-color: brown; */
+    width: 13vh;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #D69D45;
+    border-radius: 50%;
+    margin-left: 9vh;
+    margin-top: -5vh;
+  }
+.card1 img, .card2 img, .card3 img
+{
+    width: 60px;
+    height: 60px;
+    
+    /* border: 2px solid #D69D45;
+    border-radius: 50%; */
+    /* margin-top: -10vh; */
+}

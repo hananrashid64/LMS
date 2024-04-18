@@ -1,0 +1,19 @@
+.block6
+{
+    background-color: #F3F2ED;
+    height:70vh;
+    display: flex;
+}
+.block6 h3
+{
+    margin-left: 15vh;
+    margin-top: 10vh;
+    color: #194D37;
+}
+.testomonials
+{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 30vh;
+}

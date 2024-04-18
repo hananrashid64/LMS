@@ -1,0 +1,25 @@
+.block4
+{
+    width: 100%;
+    height: 120vh;
+    background-color: #F3F2ED;
+}
+.headline 
+{
+    padding-top: 10vh;
+
+}
+.headline h1
+{
+    margin-left: 12vh;
+    color: #114A37;
+    width: 50vh;
+    font-weight: bold;
+}
+.headline p
+{
+    margin-left: 12vh;
+    margin-top: -3vh;
+    color: #D69D45;
+    font-weight: normal;
+}
